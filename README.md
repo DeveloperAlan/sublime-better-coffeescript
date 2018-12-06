@@ -1,34 +1,4 @@
-[![Project Status](http://stillmaintained.com/aponxi/sublime-better-coffeescript.png)](http://stillmaintained.com/aponxi/sublime-better-coffeescript)
-
-
-	                                         __
-	   __     _____     ___     ___    __  _/\_\
-	 /'__`\  /\ '__`\  / __`\ /' _ `\ /\ \/'\/\ \
-	/\ \L\.\_\ \ \L\ \/\ \L\ \/\ \/\ \\/>  </\ \ \
-	\ \__/.\_\\ \ ,__/\ \____/\ \_\ \_\/\_/\_\\ \_\
-	 \/__/\/_/ \ \ \/  \/___/  \/_/\/_/\//\/_/ \/_/
-	            \ \_\
-	             \/_/
-
-
-	 ____            __    __
-	/\  _`\         /\ \__/\ \__
-	\ \ \L\ \     __\ \ ,_\ \ ,_\    __   _ __
-	 \ \  _ <'  /'__`\ \ \/\ \ \/  /'__`\/\`'__\
-	  \ \ \L\ \/\  __/\ \ \_\ \ \_/\  __/\ \ \/
-	   \ \____/\ \____\\ \__\\ \__\ \____\\ \_\
-	    \/___/  \/____/ \/__/ \/__/\/____/ \/_/
-
-
-			                ___    ___                                                __
-			              /'___\ /'___\                                    __        /\ \__
-			  ___    ___ /\ \__//\ \__/   __     __    ____    ___   _ __ /\_\  _____\ \ ,_\
-			 /'___\ / __`\ \ ,__\ \ ,__\/'__`\ /'__`\ /',__\  /'___\/\`'__\/\ \/\ '__`\ \ \/
-			/\ \__//\ \L\ \ \ \_/\ \ \_/\  __//\  __//\__, `\/\ \__/\ \ \/ \ \ \ \ \L\ \ \ \_
-			\ \____\ \____/\ \_\  \ \_\\ \____\ \____\/\____/\ \____\\ \_\  \ \_\ \ ,__/\ \__\
-			 \/____/\/___/  \/_/   \/_/ \/____/\/____/\/___/  \/____/ \/_/   \/_/\ \ \/  \/__/
-			                                                                      \ \_\
-			                                                                       \/_/
+Sublime-better-coffeescript, more suited for Caper-activities, Caper and other Coffeescript development.		                                                                       \/_/
 
 # Jump to Section
 
@@ -45,34 +15,26 @@
 
 # Overview
 
-**This package is for Sublime Text 3**. If you are looking for Sublime Text 2, then please refer to [st2 branch here](https://github.com/aponxi/sublime-better-coffeescript/tree/st2).
+**This package is for Sublime Text 3**. Other text editors, such as VIM, would be supported in another updated.
 
 ## Description
 
-CoffeeScript plug-in was originally created by @Xavura. As I began writing a lot of code in CoffeeScript, I felt the need for side-by-side view for compiled CoffeeScript. Since Xavura's repository have been inactive I decided to branch out my own version. The biggest change in my branch is the Watch Mode which updates the compiled JavaScript view whenever you modify the CoffeeScript thus enabling you to view your progress side-by-side.
+CoffeeScript plug-in was originally created by @Xavura. Sublime Better Coffeescript is forked from @aponxi
 
-I use this plug-in almost everyday! Therefore, whenever I am not developing I am in testing. I'll do my best to make sure every request or bug will be answered since I'm a frequent user.
+The original coffeescript plugin has been used by @DeveloperAlan and many other Blake Content devs to help with easier Coffeescript development. This repo has been forked so that these developers could have better development and commenting snippets to assist with caper-activities and caper development.
 
 ## Contributing
 
-- Please use [aponxi/issues page](https://github.com/aponxi/sublime-better-coffeescript/issues) to make requests or report bugs.
+- Please use [blake-education/issues page](https://github.com/blake-education/sublime-better-coffeescript/issues) to make requests or report bugs.
 - Please make _pull requests_ to the respective branch (`master` branch is for Sublime Text 3, `st2` branch is for Sublime Text 2.)
 
 # Installation
 
 ## via Package Control
 
-> This is the recommended installation method.
-
-If you have [Sublime Package Control](https://sublime.wbond.net/), you know what to do. If not, well: it's a package manager for Sublime Text 3. Installation guide can be [found here](https://sublime.wbond.net/installation).  After installing the package manager:
-
-* Open the Command Pallete (`ctrl+shift+P` or `cmd+shift+P`).
-* Type "Install Package" and hit return.
-* Type "Better CoffeeScript" and hit return.
+Don't. This repo has not been published to Package Control (as of writing), and probably would never be because it's not meant for public use. Instead, use the Source Control method. (may release to bx sometime in the future)
 
 ## via Source Control
-
-> If you plan to contribute, then you should install via this method. Otherwise it is recommended that you install the package via Package Control, see above.
 
 Sublime stores packages in the following locations:
 
@@ -80,7 +42,7 @@ Sublime stores packages in the following locations:
 	Mac: ~/Library/Application\ Support/Sublime\ Text\ 3/Packages
 	Win: %APPDATA%\Sublime Text 3\Packages
 
-### As a repository within the packages directory
+### As a repository within the packages directory (recommended)
 
 Open a Terminal/Console and run the following commands, replacing `PACKAGE_PATH` with the path corresponding to your OS above.
 
@@ -365,7 +327,7 @@ The coffee-script binary probably is not installed. Either install coffee-script
 # Special Thanks
 
 
-Thanks to everyone who has contributed to this project. You guys rock! 
+Thanks to everyone who has contributed to the original sublime-better-coffeescript project. You guys rock! 
 
 * [agibsonsw](https://github.com/agibsonsw) for his help in writing WatchMode
 
@@ -439,5 +401,5 @@ Thanks to everyone who has contributed to this project. You guys rock!
 
 * [@FredyC](https://github.com/FredyC) for contributing 1 commit / 1 ++ / 1 --
 
-_Written in Q3 2014_
+
 
